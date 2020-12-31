@@ -10,7 +10,7 @@ eve_public = "GAPE2V77237AQJGTFNYNI3RBMERSFLTUYPVXDMANXUGUN6IEWCVY3VXN"
 network_passphrase = Network.TESTNET_NETWORK_PASSPHRASE
 server = Server(horizon_url="https://horizon-testnet.stellar.org")
 
-escrow_account = server.load_account(eve_public)
+escrow_account = server.load_account(escrow_public)
 base_fee = 100
 
 transaction = TransactionBuilder(
